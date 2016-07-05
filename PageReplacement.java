@@ -10,7 +10,8 @@ public class PageReplacement {
 			List<Integer> refValue = new ArrayList<>();
 	       String fileName="/Users/ishaanchhabra7/Desktop/Process.txt";// Please change the path and filename of the file with randomly generated numbers, according to your system. 
 	       try{
-	          FileReader inputFile = new FileReader(fileName);
+	          FileReader inputFile = new FileReader
+	          (fileName);
 	          BufferedReader bufferReader = new BufferedReader(inputFile);
 	          String line;
 
